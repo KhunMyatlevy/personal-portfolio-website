@@ -1,0 +1,214 @@
+/* Set the background color to black and the font color to white */
+body {
+    background-color: #5e5b5b;
+    color: white;
+    margin: 15px;
+    font-family: Arial, sans-serif;
+    padding: 70px;
+}
+
+/* General styles for h, p, and a tags to align left */
+h1, h2, h3, h4, h5, h6, p, a {
+    text-align: left;
+}
+
+/* Style the links (anchor tags) */
+a {
+    color: white;
+    text-decoration: none;
+}
+
+ul li {
+    margin: 10px 0; /* Adjust the value as needed for vertical spacing */
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #e0e0e0;      /* Light gray horizontal line */
+    margin: 20px 0;                 /* Space above and below the hr */
+}
+
+/* Style the navigation bar */
+.nav-container {
+    background-color: white;
+    padding: 5px;
+    position: fixed; /* Fixes the navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    background-color: white;
+    padding: 10px 20px; /* Padding around the navbar */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    z-index: 1000; /* Ensures it stays above other content */
+    height: 30px;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    color: #5e5b5b;
+    font-weight: bold;
+    padding: 5px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: lightgray;
+}
+
+@media (max-width: 768px)  {
+    body {
+        padding: 5px;               
+        justify-content: center;      /* Center horizontally */
+        align-items: center;          /* Center vertically */
+        min-height: 100vh;           /* Full viewport height */
+    }
+}
+
+.project-screenshot {
+    display: flex;                   /* Align images in a row */
+    flex-wrap: wrap;                /* Allow images to wrap onto the next line */
+    justify-content: left;        /* Center images */
+}
+
+.project-screenshot img {
+    max-width: 100%;                
+    height: auto;                   
+    margin: 10px; 
+    width: 20%;
+}
+
+.github-button a {
+    display: inline-block; /* Makes the link behave like a button */
+    background-color: white; /* Dark background */
+    color: black; /* White text */
+    padding: 10px 10px; /* Button padding */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    transition: background-color 0.3s; /* Smooth background color transition */
+    margin-bottom: 20px;
+}
+
+.github-button a:hover {
+    background-color: #555; /* Darker background on hover */
+}
+
+.projects-container {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap to the next line */
+    justify-content: space-between; /* Adjusts spacing between items */
+    margin: 20px; /* Adds space around the projects container */
+}
+
+.project-item {
+    box-sizing: border-box; /* Ensures padding and border are included in width */
+    margin: 10px; /* Adds space between project items */
+    padding: 20px; /* Adds padding inside each project box */
+    align-items: left; /* Aligns items at the start of the container */
+}
+
+.project-item h2 {
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+    text-align: center;
+    width: 160px;
+}
+.project-item img {
+    max-width: 200px; /* Ensures images are responsive */
+    height: auto; /* Maintains aspect ratio */
+    
+}
+
+.project-item a {
+    display: flex;
+    margin-top: 10px; /* Adds space above the link */
+    text-decoration: none; /* Removes underline from the link */
+    color: black; /* Link color */
+    font-weight: bold; /* Bold font for the link */
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.project-item a:hover {
+    text-decoration: underline; /* Underline link on hover for emphasis */
+}
+
+/* Common Button Styles */
+.social-buttons .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    text-align: center;
+}
+
+/* GitHub Button Theme */
+.github-btn {
+    background-color: #333; /* GitHub Black */
+}
+
+.github-btn:hover {
+    background-color: #24292e; /* Darker GitHub color */
+}
+
+.github-btn:active {
+    transform: scale(0.98); /* Button press effect */
+}
+
+/* LinkedIn Button Theme */
+.linkedin-btn {
+    background-color: #0077B5; /* LinkedIn Blue */
+}
+
+.linkedin-btn:hover {
+    background-color: #005582; /* Darker LinkedIn color */
+}
+
+.linkedin-btn:active {
+    transform: scale(0.98); /* Button press effect */
+}
+
+/* You can add more button themes here if needed */
+
+#searchInput {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: border-color 0.3s ease;
+}
+
+#searchInput:focus {
+    outline: none;
+    border-color: #007BFF; /* Color changes on focus */
+    box-shadow: 0 0 10px rgba(0, 123, 255, 0.2);
+}
+
+#searchInput::placeholder {
+    color: #999;
+    font-style: italic;
+}
+
+
+
+
+
+

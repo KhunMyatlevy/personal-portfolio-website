@@ -1,0 +1,59 @@
+[
+    { 
+        "title": "Static Website", 
+        "url": "projects/html-and-css-website.html",
+        "image": "images/photo_2024-09-20_14-00-53.jpg"
+    },
+    { 
+        "title": "Django Website", 
+        "url": "projects/django-website.html",
+        "image": "images/photo_2024-09-20_13-11-33.jpg"
+    },
+    { 
+        "title": "Calculator Application", 
+        "url": "projects/caculator-application.html",
+        "image": "images/caculator mobile view.jpg" 
+    },
+
+    {
+        "title":"Digital clock with date",
+        "url":"projects/Digital-cloock-with-date.html",
+        "image": "images/Digital clock with date mobile view.jpg" 
+    },
+
+    {
+        "title":"Memory Card Game",
+        "url":"projects/memory-card-game.html",
+        "image": "images/memory card game mobile view.jpg" 
+    },
+
+    {
+        "title":"To Do List Application",
+        "url":"projects/to-do-list-application.html",
+        "image": "images/To do list application mobile view.jpg" 
+    },
+
+    {
+        "title":"Calories Caculator",
+        "url":"projects/calories-caculator.html",
+        "image": "images/calories caculator mobile view 1.jpg" 
+    },
+
+    {
+        "title":"Tic Tac Toe Game",
+        "url":"projects/tic-tac-toe-game.html",
+        "image": "images/tic tac toe game mobile view.jpg" 
+    }, 
+
+    {
+        "title":"API Weather Dashboard",
+        "url":"projects/api-weather-dashboard.html",
+        "image": "images/api weather dashboard mobile view.jpg" 
+    }
+
+
+
+
+
+
+]
